@@ -10,8 +10,7 @@
 Concluído
 
 <h2>Descrição do Projeto:<h2>
-Projeto se trata de uma cena de teste no Unity, 
-para mostrar os usos e conceitos sobre o Raycast dentro da Engine 
+Projeto se trata de uma cena de teste no Unity, para mostrar os usos e conceitos sobre o Raycast dentro da game Engine 
 
 
 
