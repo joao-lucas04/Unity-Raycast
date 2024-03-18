@@ -10,7 +10,7 @@
 Concluído
 
 <h2>Descrição do Projeto:<h2>
-Projeto se trata de uma cena de teste no Unity, para mostrar os usos e conceitos sobre o Raycast dentro da game Engine.
+Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os conceitos de Raycast, Prefabs e Destroy dentro da game Engine
 
 
 
