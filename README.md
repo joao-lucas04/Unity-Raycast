@@ -1,4 +1,4 @@
-<h1 align="center">Olá 👋, somos João Lucas e Filipe</h1>
+<h1 align="center">Olá 👋, somos João Lucas e Filipe Custódio</h1>
 <h2 align="center">Atividade de LP - Unity Raycast</h2>
 
 - LINK PARA O PROJETO NO DRIVE: [https://drive.google.com/drive/folders/1P460PHkBUXLBYklIy_QJibNZia2AmqxJ?usp=sharing](https://drive.google.com/drive/folders/1P460PHkBUXLBYklIy_QJibNZia2AmqxJ?usp=sharing)
