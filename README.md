@@ -18,7 +18,6 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 <img src="img/visao_img.png">
 <br>
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa. Descrição das linhas do código a seguir:
-
 <br>
 <br>
 
