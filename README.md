@@ -40,29 +40,29 @@ Esta parte do script é responsável por declarar variáveis, armazenando inform
 <br>
 Ainda no mesmo falando sobre a outra parte do mesmo script, pode-se falar sobre: 
 
-- if(Input.GetKeyDown(KeyCode.Space)) faz com que o código seja executado quando a tecla de espaço é pressionada.
+- if(Input.GetKeyDown(KeyCode.Space)): faz com que o código seja executado quando a tecla de espaço é pressionada.
 
-- if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), 1.5f)) faz lançar um raio para baixo a partir da posição do personagem, se esse raio atingir algum objeto a uma distância máxima de 1.5 unidades será igual a verdadeira.
+- if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), 1.5f)): faz lançar um raio para baixo a partir da posição do personagem, se esse raio atingir algum objeto a uma distância máxima de 1.5 unidades será igual a verdadeira.
 
-- rb.AddForce(pulo * 2.0f, ForceMode.Impulse) Se o raio atingir um objeto, é adicionado uma força de pulo ao Rigidbody (rb) do personagem.
+- rb.AddForce(pulo * 2.0f, ForceMode.Impulse): Se o raio atingir um objeto, é adicionado uma força de pulo ao Rigidbody (rb) do personagem.
   
-- if(Input.GetMouseButton(0)) Esse código será executado quando o botão esquerdo do mouse é pressionado.
+- if(Input.GetMouseButton(0)): Esse código será executado quando o botão esquerdo do mouse é pressionado.
 
-- raio = Camera.main.ScreenPointToRay(Input.mousePosition): Aqui, criamos um raio que vai da câmera até a posição atual do mouse na tela.
+- raio = Camera.main.ScreenPointToRay(Input.mousePosition): Cria um raio que vai da câmera até a posição atual do mouse na tela.
 
-- Lancar(raio): Chamamos a função Lancar passando o raio como argumento.
+- Lancar(raio): Chama a função Lancar passando o raio como argumento.
 
-- private void Lancar(Ray raio) faz com que receba um raio como entrada e é responsável por lidar com o Raycast para detectar e destruir alvos.
+- private void Lancar(Ray raio): faz com que receba um raio como entrada e é responsável por lidar com o Raycast para detectar e destruir alvos.
 
 - if(Physics.Raycast(raio, out hit)): faz lançar um raio a partir da posição e direção fornecidas pelo raio, se o raio atingir um objeto, a função retorna verdadeiro e armazena informações sobre o objeto atingido na variável hit.
 
-- string tag = hit.collider.tag faz obter a tag do colisor do objeto atingido.
+- string tag = hit.collider.tag: faz obter a tag do colisor do objeto atingido.
 
-- if(tag == "Alvo") Se o objeto atingido tiver a tag "Alvo", isso significa que é um alvo que deve ser destruído.
+- if(tag == "Alvo"): Se o objeto atingido tiver a tag "Alvo", isso significa que é um alvo que deve ser destruído.
 
 - Destroy(obj): Destruímos o objeto atingido.
 
-- Instantiate(botao, hitPosition, Quaternion.identity) Intância, chama um novo GameObject a partir do prefab botao na posição do alvo destruído.
+- Instantiate(botao, hitPosition, Quaternion.identity): Intancia, chama um novo GameObject a partir do prefab botao na posição do alvo destruído.
 
   
 
