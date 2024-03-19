@@ -19,8 +19,6 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 <br>
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa. Descrição das linhas do código a seguir:
 <br>
-<br>
-
  - Temos uma declaração de variáveis no início do código, que tem o objetivo de determinar a velocidade com que a câmera irá girar em resposta ao movimento do mouse.
  
  - mouseX += Input.GetAxis("Mouse X") * sensibilidade: é atualizada a variável 'mouseX', adicionando a mudança na posição do mouse ao longo do eixo X, multiplicada pela sensibilidade. Isso permite que a câmera gire horizontalmente conforme movemos o mouse para a esquerda ou direita.
@@ -33,6 +31,7 @@ Este script faz com que o jogador controle a rotação da câmera usando o mouse
 <img src="img/personagem_img1.png">
 <br>
 Esta parte do script é responsável por declarar variáveis, armazenando informações como o Rigidbody do personagem, a velocidade de movimento, a sensibilidade do mouse, o raio para o Raycast e o objeto a ser instanciado quando um alvo é destruído.
+<br>
 <img src="img/personagem_unity.png">
 <img src="img/personagem_img3.png">
 <br>
