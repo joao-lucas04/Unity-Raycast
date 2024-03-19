@@ -38,7 +38,7 @@ Esta parte do script é responsável por declarar variáveis, armazenando inform
 <img src="img/personagem_unity.png">
 <img src="img/personagem_img3.png">
 <br>
-Ainda no mesmo falando sobre a outra parte do mesmo script, pode-se falar sobre: 
+Ainda no mesmo código, falando sobre a outra parte do script personagem.cs, pode-se falar sobre: 
 
 - if(Input.GetKeyDown(KeyCode.Space)): faz com que o código seja executado quando a tecla de espaço é pressionada.
 
