@@ -25,7 +25,14 @@ Este script faz com que o jogador controle a rotação da câmera usando o mouse
    
  - Na linha 14, temos algo muito semelhante a linha 13, porém o sinal negativo é usado aqui para permitir que a câmera gire verticalmente conforme movemos o mouse para cima ou para baixo.
 
- - Na linha 16, pode-se notar a rotação da câmera com base nas variáveis mouseX e mouseY. Isso cria um efeito de olhar livre, onde a câmera pode se mover livremente em torno do objeto alvo, mas não estamos aplicando rotação no eixo Z (0), o que significa que a câmera não irá rolar para fora da cena. 
+ - Na linha 16, pode-se notar a rotação da câmera com base nas variáveis mouseX e mouseY. Isso cria um efeito de olhar livre, onde a câmera pode se mover livremente em torno do objeto alvo, mas não estamos aplicando rotação no eixo Z (0), o que significa que a câmera não irá rolar para fora da cena.
+
+<h1>personagem.cs</h1>
+<img src="img/personagem_img.png">
+<br>
+Esta parte do script é responsável por declarar variáveis, armazenando informações como o Rigidbody do personagem, a velocidade de movimento, a sensibilidade do mouse, o raio para o Raycast e o objeto a ser instanciado quando um alvo é destruído.
+
+  
 
 
 
