@@ -28,7 +28,7 @@ Este script faz com que o jogador controle a rotação da câmera usando o mouse
  - transform.eulerAngles = new Vector3(mouseY, mouseX, 0): pode-se notar a rotação da câmera com base nas variáveis mouseX e mouseY, isso cria um efeito de olhar livre, onde a câmera pode se mover livremente em torno do objeto alvo, mas não estamos aplicando rotação no eixo Z (0), o que significa que a câmera não irá rolar para fora da cena.
 
 <h1>personagem.cs</h1>
-<img src="img/personagem_img.png">
+<img src="img/personagem_img1.png">
 <br>
 Esta parte do script é responsável por declarar variáveis, armazenando informações como o Rigidbody do personagem, a velocidade de movimento, a sensibilidade do mouse, o raio para o Raycast e o objeto a ser instanciado quando um alvo é destruído.
 <img src="img/personagem_unity">
