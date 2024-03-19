@@ -17,10 +17,11 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 <img src="img/visao_img.png">
 <br>
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa.
+
  - Nas linhas 3,4 e 5 temos uma declaração de variáveis que tem o objetivo de determinar a velocidade com que a câmera irá girar em resposta ao movimento do mouse.
  
  - Na linha 13, atualizamos a variável 'mouseX', adicionando a mudança na posição do mouse ao longo do eixo X, multiplicada pela sensibilidade. Isso permite que a câmera gire horizontalmente conforme movemos o mouse para a esquerda ou direita.
- - 
+   
  - Na linha 14, temos algo muito semelhante a linha 13, porém o sinal negativo é usado aqui para permitir que a câmera gire verticalmente conforme movemos o mouse para cima ou para baixo.
 
 
