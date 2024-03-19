@@ -12,7 +12,7 @@ Concluído
 <h2>Descrição do Projeto:<h2>
 Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os conceitos de Raycast, Prefabs e Destroy dentro da game Engine
 
-<h1>Explicação dos Scripts</h1>
+<h2>Explicação dos Scripts:</h2>
 <h2>visao.cs</h2>
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa.
 
