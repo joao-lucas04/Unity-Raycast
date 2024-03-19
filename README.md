@@ -14,6 +14,7 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 
 <h2>Explicação dos Scripts:</h2>
 <h2>visao.cs</h2>
+<img src="img/visao.png">
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa.
 
 
