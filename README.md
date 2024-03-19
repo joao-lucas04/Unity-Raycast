@@ -16,7 +16,7 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 <h1>visao.cs</h1>
 <img src="img/visao_img.png">
 <br>
-Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa.
+Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa. Detalhamentos:
 
  - Nas linhas 3,4 e 5 temos uma declaração de variáveis que tem o objetivo de determinar a velocidade com que a câmera irá girar em resposta ao movimento do mouse.
  
