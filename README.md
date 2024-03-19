@@ -31,7 +31,7 @@ Este script faz com que o jogador controle a rotação da câmera usando o mouse
 <img src="img/personagem_img.png">
 <br>
 Esta parte do script é responsável por declarar variáveis, armazenando informações como o Rigidbody do personagem, a velocidade de movimento, a sensibilidade do mouse, o raio para o Raycast e o objeto a ser instanciado quando um alvo é destruído.
-<img src="img/personagem_img2.png">
+<img src="img/personagem_img3.png">
 <br>
 Ainda no mesmo falando sobre o mesmo script, pode-se falar sobre: 
 
