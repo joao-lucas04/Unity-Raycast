@@ -64,6 +64,27 @@ Ainda no mesmo código, falando sobre a outra parte do script personagem.cs, pod
 
 - Instantiate(botao, hitPosition, Quaternion.identity): Intancia, chama um novo GameObject a partir do prefab botao na posição do alvo destruído.
 
+<h1>porta.cs</h1>
+<img src="img/porta_img.png">
+<br>
+Este script foi feito para abrir uma porta quando o alvo associado a ela for destruído.
+
+- No início do código, declaramos as variáveis que armazenenam a referência dos elementos já apresentados anteriormente.
+
+- No void start() temos:
+
+- alvo = GameObject.Find("Alvo (" + numeroP + ")");: tem o intuído de encontrar o GameObject do alvo com base no número da porta fornecido
+   
+- porta = GameObject.Find("Porta (" + numeroP + ")"); encontra o GameObject da porta com base no número da porta fornecido.
+
+No void Uptade() temos: 
+
+- if(alvo == null): Verifica se o objeto alvo associado à porta não está mais presente no jogo (ou seja, foi destruído).
+
+- Destroy(porta, 0.5f);: Se o objeto alvo não estiver mais presente, destrói a porta após um curto intervalo de 0.5 segundos.
+
+- Debug.Log("Aberta");: Registra uma mensagem de depuração indicando que a porta foi aberta.
+
   
 
 
