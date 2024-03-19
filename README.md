@@ -19,18 +19,19 @@ Projeto se trata sobre a elaboração de uma cena teste no Unity, que aplique os
 <br>
 Este script faz com que o jogador controle a rotação da câmera usando o mouse, proporcionando uma experiência de visualização mais interativa. Descrição das linhas do código a seguir:
 
- - Nas linhas 3, 4 e 5 temos uma declaração de variáveis que tem o objetivo de determinar a velocidade com que a câmera irá girar em resposta ao movimento do mouse.
+ - Temos uma declaração de variáveis no início do código, que tem o objetivo de determinar a velocidade com que a câmera irá girar em resposta ao movimento do mouse.
  
- - Na linha 13, atualizamos a variável 'mouseX', adicionando a mudança na posição do mouse ao longo do eixo X, multiplicada pela sensibilidade. Isso permite que a câmera gire horizontalmente conforme movemos o mouse para a esquerda ou direita.
+ - mouseX += Input.GetAxis("Mouse X") * sensibilidade: é atualizada a variável 'mouseX', adicionando a mudança na posição do mouse ao longo do eixo X, multiplicada pela sensibilidade. Isso permite que a câmera gire horizontalmente conforme movemos o mouse para a esquerda ou direita.
    
- - Na linha 14, temos algo muito semelhante a linha 13, porém o sinal negativo é usado aqui para permitir que a câmera gire verticalmente conforme movemos o mouse para cima ou para baixo.
+ - mouseY -= Input.GetAxis("Mouse Y") * sensibilidade: temos algo muito semelhante ao que foi proposto anteriormente, porém o sinal negativo é usado aqui para permitir que a câmera gire verticalmente conforme movemos o mouse para cima ou para baixo.
 
- - Na linha 16, pode-se notar a rotação da câmera com base nas variáveis mouseX e mouseY. Isso cria um efeito de olhar livre, onde a câmera pode se mover livremente em torno do objeto alvo, mas não estamos aplicando rotação no eixo Z (0), o que significa que a câmera não irá rolar para fora da cena.
+ - transform.eulerAngles = new Vector3(mouseY, mouseX, 0): pode-se notar a rotação da câmera com base nas variáveis mouseX e mouseY, isso cria um efeito de olhar livre, onde a câmera pode se mover livremente em torno do objeto alvo, mas não estamos aplicando rotação no eixo Z (0), o que significa que a câmera não irá rolar para fora da cena.
 
 <h1>personagem.cs</h1>
 <img src="img/personagem_img.png">
 <br>
 Esta parte do script é responsável por declarar variáveis, armazenando informações como o Rigidbody do personagem, a velocidade de movimento, a sensibilidade do mouse, o raio para o Raycast e o objeto a ser instanciado quando um alvo é destruído.
+<img src="img/personagem_unity">
 <img src="img/personagem_img3.png">
 <br>
 Ainda no mesmo falando sobre a outra parte do mesmo script, pode-se falar sobre: 
