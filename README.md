@@ -86,6 +86,11 @@ No void Uptade() temos:
 
 - Debug.Log("Aberta");: Registra uma mensagem de depuração indicando que a porta foi aberta.
 
+  <h1>Elementos Adicionais:</h1>
+  <h2>Vidro: </h2>
+  <img src="img/vidro.png">
+- Os elementos de vidro estão posicionados em uma camada na qual o Raycast é ignorado (Ignore Raycast). Sendo assim, o raio passará diretamente pelo elemento de vidro e atingirá oque está atrás.
+
   
 
 
